@@ -3,6 +3,36 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.9.5] - 2024-04-16
+
+### Changed
+
+- roll back from float to double in example for a better precision
+
+## [0.9.4] - 2024-04-15
+
+### Added
+
+- vif FB1A rel humidity 
+
+### Changed
+
+- better process for unknown VIFs
+
+
+## [0.9.3] - 2024-04-11
+
+### Changed
+
+- better real support
+- fix failure with more VIFEs
+
+## [0.9.2] - 2024-04-09
+
+### Changed
+
+- fix a problem with floats since last version
+
 ## [0.9.1] - 2024-04-05
 
 ### Added
