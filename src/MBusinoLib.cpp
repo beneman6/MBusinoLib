@@ -473,7 +473,7 @@ uint8_t MBusinoLib::decode(uint8_t *buffer, uint8_t size, JsonArray& root) {
 
     if(asciiValue != 1){ //0 = double, 1 = ASCII, 2 = both;
       //data["scalar"] = scalar;
-      //data["value_raw"] = value;
+      data["value_raw"] = value;
       data["value_scaled"] = scaled; 
     }
     if(asciiValue > 0){ //0 = double, 1 = ASCII, 2 = both;
